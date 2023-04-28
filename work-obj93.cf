@@ -1,0 +1,15 @@
+v 4
+file . "semaforos_states.vhd" "81e646f7393f281959cd7e0de6b7b4e847c26238" "20230428014247.189":
+  package semaforos_states at 1( 0) + 0 on 421;
+file . "counter.vhd" "44bb7f79bf3e01cd90bf0ac883a56d18fc696873" "20230428014247.194":
+  entity counter at 1( 0) + 0 on 422;
+  architecture counter_beh of counter at 16( 355) + 0 on 423;
+file . "counter_semaforos.vhd" "8c5ae6a51302b93f38fce03bc86fb657d0befcd4" "20230428014247.195":
+  entity counter_semf at 1( 0) + 0 on 424;
+  architecture counter_semf_beh of counter_semf at 22( 547) + 0 on 425;
+file . "semaforos.vhd" "7505f2f0cd0a25b7a9397054667035c9c77039a3" "20230428014247.197":
+  entity semaforos at 1( 0) + 0 on 426;
+  architecture semaforos_beh of semaforos at 21( 473) + 0 on 427;
+file . "semaforos_tb.vhd" "0df672d21dc126e628b0b14a827dc6a5faab6c3c" "20230428014247.198":
+  entity semaforos_tb at 1( 0) + 0 on 428;
+  architecture semaforos_tb_beh of semaforos_tb at 8( 119) + 0 on 429;
