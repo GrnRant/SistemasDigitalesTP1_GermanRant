@@ -20,6 +20,7 @@ begin
     begin
         if rst = '1' then
             aux <= (others => '0');
+            max <= '0';
         end if;
         if rising_edge(clk) then
             --Si está habilitado
