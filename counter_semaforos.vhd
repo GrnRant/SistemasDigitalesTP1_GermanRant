@@ -42,7 +42,7 @@ begin
         --Si reset está activado
         if rst_semf_counter = '1' then
             aux <= (others => '0');
-            max <= '0';
+            max_semf_counter <= '0';
         end if;
         if rising_edge(clk_semf_counter) then
             --Si está habilitado
