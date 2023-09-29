@@ -1,15 +1,15 @@
 v 4
-file . "semaforos_tb.vhd" "0df672d21dc126e628b0b14a827dc6a5faab6c3c" "20230429145330.893":
-  entity semaforos_tb at 1( 0) + 0 on 455;
-  architecture semaforos_tb_beh of semaforos_tb at 8( 119) + 0 on 456;
-file . "semaforos.vhd" "7505f2f0cd0a25b7a9397054667035c9c77039a3" "20230429145330.892":
-  entity semaforos at 1( 0) + 0 on 453;
-  architecture semaforos_beh of semaforos at 21( 473) + 0 on 454;
-file . "counter_semaforos.vhd" "4d42ee362fe996d884e52a7b5c41e83b40567951" "20230429145330.891":
-  entity counter_semf at 1( 0) + 0 on 451;
-  architecture counter_semf_beh of counter_semf at 22( 547) + 0 on 452;
-file . "counter.vhd" "c1b32a2484d3aa89471f490be58e3f5fbd9cf2ea" "20230429145330.890":
-  entity counter at 1( 0) + 0 on 449;
-  architecture counter_beh of counter at 16( 361) + 0 on 450;
-file . "semaforos_states.vhd" "81e646f7393f281959cd7e0de6b7b4e847c26238" "20230429145330.886":
-  package semaforos_states at 1( 0) + 0 on 448;
+file . "semaforos_states.vhd" "81e646f7393f281959cd7e0de6b7b4e847c26238" "20230929181950.075":
+  package semaforos_states at 1( 0) + 0 on 493;
+file . "counter.vhd" "21f52cfe34e606828e1222e49ccd32e0c628126d" "20230929181950.077":
+  entity counter at 2( 26) + 0 on 494;
+  architecture counter_beh of counter at 18( 476) + 0 on 495;
+file . "counter_semaforos.vhd" "4d42ee362fe996d884e52a7b5c41e83b40567951" "20230929181950.078":
+  entity counter_semf at 1( 0) + 0 on 496;
+  architecture counter_semf_beh of counter_semf at 22( 547) + 0 on 497;
+file . "semaforos.vhd" "7505f2f0cd0a25b7a9397054667035c9c77039a3" "20230929181950.079":
+  entity semaforos at 1( 0) + 0 on 498;
+  architecture semaforos_beh of semaforos at 21( 473) + 0 on 499;
+file . "semaforos_tb.vhd" "0df672d21dc126e628b0b14a827dc6a5faab6c3c" "20230929181950.081":
+  entity semaforos_tb at 1( 0) + 0 on 500;
+  architecture semaforos_tb_beh of semaforos_tb at 8( 119) + 0 on 501;

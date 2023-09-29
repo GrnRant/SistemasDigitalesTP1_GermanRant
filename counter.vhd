@@ -1,8 +1,10 @@
+--Contador de un segundo
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 entity counter is
+    --Para simulaciones se setea a N := 6 y a M := 49 y es un contador un microsegundo)
     generic(N: natural := 26; M: integer := 49999999);
 
     port (ena: in std_logic;
@@ -27,7 +29,7 @@ begin
             if ena = '1' then
                 --Sumar
                 aux <= aux + 1;
-                --Si se pasó poner en cero ()
+                --Si se pasó poner en cero 
                 if aux = to_unsigned(M, N) then
                     aux <= (others =>'0');
                     max <= '1';
